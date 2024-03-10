@@ -20,10 +20,14 @@ public class atmSystemInJava {
             int choseAction = input.nextInt();
 
             switch (choseAction) {
+
+
+                // ////////// CHECK YOUR BALANCE
                 case 1:
                     System.out.println("Your balance is: Rs " + yourBalance);
                     break;
 
+                // ////////// DEPOSIT YOUR MONEY 
                 case 2:
                     System.out.println("Your Balance is: Rs " + yourBalance);
                     System.out.print("Enter the amount you want to deposit: ");
@@ -36,6 +40,7 @@ public class atmSystemInJava {
                     }
                     break;
 
+                // ////////// WITHDRAW YOUR MONEY 
 
                 case 3:  
                     System.out.println("Your Balance is: Rs " + yourBalance);
@@ -51,7 +56,7 @@ public class atmSystemInJava {
                     }
                     break;
 
-
+                // ////////// EXIT THE PROGRAM 
                 case 4:
                     isRunning = false;
                     System.out.println("Goodbye:) Thank you for using the ATM.");
